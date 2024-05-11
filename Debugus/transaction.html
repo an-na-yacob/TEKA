@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transaction</title>
+  <style>
+  body{
+    background-color: #3c07079c;
+  }
+  .container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/*.box1 {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(242, 246, 246, 0.964);
+  border-radius: 20px;
+  margin: 50px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+*/
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(219, 229, 229, 0.812);
+  padding-right: 10px;
+  margin-right: 100px;
+  border-radius: 20px;
+  padding-top: 10px; /* Corrected typo */
+}
+  img{
+    width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute; /* Position the image */
+      top: 0;
+      left: 0;
+      z-index: -1; /* Send the image to the background */
+      position: fixed;
+  }
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:1000px;
+  padding-left: 100px;
+  margin-left: 190px;
+  
+}
+
+.payment-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding:100px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.img1{
+    width: 300px;
+      height: 300px;
+      object-fit: cover;
+      position: absolute; /* Position the image */
+      top: 0;
+      left: 0;
+      z-index: 1; /* Send the image to the background */
+      position: relative;
+      padding-left: 150px;
+      padding-top: 30px;
+}
+
+</style>
+</head>
+<body>
+   <!-- <div class="container">
+    <div class="box1">
+        -->
+       
+    </div>
+    <div class="container">
+        <img class="img1" src="pay.png">
+        <form class="payment-form">
+          <div class="form-group">
+            <div class="form-group">
+                <label for="name">Enter Name on card:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+            <label for="card-number">Enter Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="cvv">Enter CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+          </div>
+          <button type="submit"><a href="tr.html" >Proceed to Pay</button>
+        </form>
+      </div>
+</div>
+<img src="tra.jpeg">
+</body>
